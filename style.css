@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: rgb(255, 230, 230);
     margin: 0;
@@ -131,7 +135,7 @@ body {
     font-family: 'Dancing Script', cursive;
     text-align: center;
     margin-bottom: 15px;
-    margin-top:25px;
+    margin-top: 25px;
 }
 
 .nav-link.active {
@@ -207,6 +211,31 @@ body {
     padding: 3px;
 }
 
+#schedule {
+    margin: 0;
+    padding-top: 60px;
+    padding-bottom: 80px;
+    text-align: center;
+    width: auto;
+}
+
+#schedule h1 {
+    color: red;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+#s-header {
+    background-color: black;
+}
+
+.text-truncate {
+    overflow: auto;
+    text-overflow: unset;
+}
+
 @media (min-width: 1024px) {
     #about {
         margin: 80px 21% 80px 21%;
@@ -247,7 +276,10 @@ body {
         width: 40px;
         padding: 5px;
     }
-
+    #schedule {
+        padding: 80px;
+        background-color: rgb(255, 230, 230);
+    }
 }
 
 @media (max-width: 768px) {
@@ -271,11 +303,97 @@ body {
     .phone {
         margin-left: -10px;
     }
+    .display-4 {
+        font-size: 1.5rem;
+    }
+    .day h5 {
+        background-color: #f8f9fa;
+        padding: 3px 5px 5px;
+        margin: -8px -8px 8px -8px;
+    }
+    .date {
+        padding-left: 4px;
+    }
 }
+
 
 @media (min-width: 768px) {
     .s-media {
         margin-left: auto;
         padding-right: 10px;
     }
+}
+
+
+.bg-primary {
+    background-color: rgb(0, 141, 223) !important;
+}
+
+a.bg-primary:hover {
+    background-color: rgb(2, 115, 180) !important;
+}
+
+
+.bg-success {
+    background-color: rgb(240, 58, 158) !important;
+}
+
+a.bg-success:hover {
+    background-color: rgb(184, 47, 122) !important;
+}
+
+.bg-info {
+    background-color: rgb(0, 114, 180) !important;
+}
+
+a.bg-info:hover {
+    background-color: rgb(1, 92, 145) !important;
+}
+
+.bg-secondary {
+    background-color: rgb(214, 52, 141) !important;
+}
+
+a.bg-secondary:hover {
+    background-color: rgb(175, 43, 116) !important;
+}
+
+.day .bg-dark {
+    background-color: rgb(0, 94, 148) !important;
+}
+
+.day a.bg-dark:hover {
+    background-color: rgb(1, 69, 109) !important;
+}
+
+.bg-danger {
+    background-color: rgb(202, 40, 129) !important;
+}
+
+a.bg-danger:hover {
+    background-color: rgb(170, 41, 112) !important;
+}
+
+.bg-warning {
+    background-color: rgb(170, 255, 67) !important;
+}
+
+a.bg-warning:hover {
+    background-color: rgb(144, 231, 37) !important;
+}
+
+.bg-transparent {
+    background-color: rgb(152, 236, 49) !important;
+}
+
+a.bg-transparent:hover {
+    background-color: rgb(152, 221, 67) !important;
+}
+
+.bg-white {
+    background-color: rgb(146, 228, 46) !important;
+}
+
+a.bg-white:hover {
+    background-color: rgb(136, 207, 49) !important;
 }
