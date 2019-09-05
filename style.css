@@ -1,0 +1,19 @@
+.navbar-text {
+    background-color: red;
+
+}
+
+.navbar {
+    padding: 0;
+    background-color: rgba(25, 26, 30, 0.87);
+    margin: 0;
+}
+
+.nav-item {
+    padding-left: 15px;
+}
+
+.navbar-brand {
+    padding-left: 15px;
+    margin-right: 0px;
+}
