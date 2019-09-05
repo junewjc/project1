@@ -194,6 +194,17 @@ body {
     position: absolute;
 }
 
+.footer {
+    background-color: rgba(255, 0, 0, 0.85);
+    color: white;
+    font-size: 15px;
+    padding: 6px;
+}
+
+.footer img {
+    width: 30px;
+    padding: 3px;
+}
 
 @media (min-width: 1024px) {
     #about {
@@ -231,6 +242,10 @@ body {
     #c-details {
         flex-direction: row !important;
     }
+    .footer img {
+        width: 40px;
+        padding: 5px;
+    }
 
 }
 
@@ -244,5 +259,22 @@ body {
     }
     .container {
         max-width: 768px;
+    }
+    #c-details {
+        flex-direction: column;
+    }
+
+    .footer {
+        justify-content: center;
+    }
+    .phone {
+        margin-left: -10px;
+    }
+}
+
+@media (min-width: 768px) {
+    .s-media {
+        margin-left: auto;
+        padding-right: 10px;
     }
 }
