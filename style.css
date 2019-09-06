@@ -32,10 +32,7 @@ body {
 }
 
 #hero-image {
-    background-image: url(images/main.png);
-    background-size: cover;
     position: relative;
-    height: 600px;
     margin: 0;
 }
 
@@ -106,6 +103,7 @@ body {
     text-align: center;
 }
 
+
 .i-images {
     width: 200px;
 }
@@ -124,7 +122,6 @@ body {
 }
 
 #courses {
-    margin: 0;
     padding: 20px;
     text-align: center;
     width: auto;
@@ -240,20 +237,14 @@ body {
     #about {
         margin: 80px 21% 80px 21%;
     }
-    #about-content {
-        padding-left: 260px;
-        padding-right: 20px;
-    }
+
     #instructors {
         background-color: white;
         margin-top: 20px;
         margin-bottom: 30px;
         padding-top: 40px;
     }
-    #courses {
-        margin: 0 15% 50px 15%;
-        padding-top: 60px;
-    }
+
     #form {
         margin: 20px 20% 50px 20%;
         background-color: rgb(245, 245, 245);
@@ -317,10 +308,18 @@ body {
 }
 
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
     .s-media {
         margin-left: auto;
         padding-right: 10px;
+    }
+    #about-content {
+        padding-left: 260px;
+        padding-right: 20px;
+    }
+    #courses {
+        margin: 0 15% 50px 15%;
+        padding-top: 60px;
     }
 }
 
