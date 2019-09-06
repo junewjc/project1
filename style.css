@@ -122,9 +122,9 @@ body {
 }
 
 #courses {
-    padding: 20px;
     text-align: center;
     width: auto;
+    padding-top: 30px;
 }
 
 #courses h1 {
@@ -241,7 +241,7 @@ body {
     #instructors {
         background-color: white;
         margin-top: 20px;
-        margin-bottom: 30px;
+        padding-bottom: 50px;
         padding-top: 40px;
     }
 
@@ -308,6 +308,7 @@ body {
 }
 
 
+
 @media (min-width: 992px) {
     .s-media {
         margin-left: auto;
@@ -318,8 +319,8 @@ body {
         padding-right: 20px;
     }
     #courses {
-        margin: 0 15% 50px 15%;
-        padding-top: 60px;
+        margin: 0 15% 30px 15%;
+        padding-top: 20px;
     }
 }
 
