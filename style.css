@@ -98,7 +98,7 @@ body {
 #i-content>div {
     background-color: rgb(253, 140, 140);
     width: 380px;
-    height: 730px;
+    height: 750px;
     margin: 15px;
     text-align: center;
 }
@@ -113,12 +113,12 @@ body {
 }
 
 #instructors h2 {
-    padding-top: 10px;
+    padding-top: 15px;
     font-family: 'Dancing Script', cursive;
 }
 
 #instructors h4 {
-    padding: 10px;
+    padding: 15px;
 }
 
 #courses {
@@ -320,7 +320,7 @@ body {
     }
     #courses {
         margin: 0 15% 30px 15%;
-        padding-top: 20px;
+        padding-top: 30px;
     }
 }
 
