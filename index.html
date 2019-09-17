@@ -55,7 +55,7 @@
 
   <!-- Hero Image -->
   <div class="d-none d-lg-block" id="hero-image">
-    <img src="images/main.png"class="img-fluid" alt="Responsive image">
+    <img src="images/main.png" class="img-fluid" alt="Responsive image">
   </div>
   <div class="jumbotron jumbotron-fluid d-lg-none" id="hero-mimage" alt="Responsive image">
     <a id="trial" class="text-decoration-none" href="index.html#register">Free Trial Class</a>
@@ -441,7 +441,7 @@
         </div>
       </div>
       <div id="s-button">
-        <button type="submit" class="btn btn-dark">Submit</button>
+        <button onclick="submitted()" button type="submit" class="btn btn-dark">Submit</button>
       </div>
     </form>
   </section>
@@ -496,6 +496,11 @@
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>
     AOS.init();
+  </script>
+  <script>
+    function submitted() {
+      alert("The form has been submitted. A confirmation email will be sent to you shortly.");
+    }
   </script>
 </body>
 
